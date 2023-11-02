@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "144677968416",
+    "project_id": "flutter-app-40b8c",
+    "storage_bucket": "flutter-app-40b8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144677968416:android:e8bf72b7bfcd68b79c7a45",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144677968416-sou149nt1cu2pb73du4b6u0jif0dms46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOICu06_-I7XEH2Z9hMCj7zaTDCv1zw0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144677968416-sou149nt1cu2pb73du4b6u0jif0dms46.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "144677968416-0rg18v039v8gc80jlh5u2dveo0ucv54i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jennifersoft.alvinlogin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
