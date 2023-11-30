@@ -11,12 +11,7 @@ import 'package:kakao_flutter_sdk_user/kakao_flutter_sdk_user.dart' as kakao;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  if (Platform.isAndroid) {
-    await Firebase.initializeApp(
-        options: DefaultFirebaseOptions.currentPlatform);
-  } else {
-    await Firebase.initializeApp();
-  }
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   kakao.KakaoSdk.init(nativeAppKey: '15dd5fae0c2e9fc4f494a0d5d366da34');
   runApp(const MyApp());
